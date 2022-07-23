@@ -1,3 +1,4 @@
+# this code is only for practise
 command=""
 started=False
 while True:
