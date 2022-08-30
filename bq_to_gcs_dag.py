@@ -11,7 +11,7 @@ with DAG("bq_dataset",
         task_id="bq_recent_questions_query",
         configuration={
             "query": {
-                "query":deepu123_query,
+                "query":recent_questions_query,
 
                 "destinationTable": {
                     "projectId": bq_deepu123,
